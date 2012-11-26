@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Mandelbrot</title>
+
+	<!-- ** Styling  ** -->
+	<!--    External    -->
+	<!--    Internal    -->
+	<link rel="stylesheet" type="text/css" href="../css/mandelbrot.css">
+			       
+	<!-- ** Libraries ** -->
+	<!--    External     -->
+	<script type="text/javascript" src="../js/jquery/jquery-ui-1.8.4.custom/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="../js/jquery/jquery.svg.package-1.4.3/jquery.svg.js"></script>
+	<script type="text/javascript" src="../js/jquery/log4javascript-1.4.1/js/log4javascript.js"></script>	   <!--    Internal     -->
+
+	<!--    Internal     -->
+	<script type="text/javascript" src="../js/mandelbrot.js"></script>
+</head>
+ 	<body>
+  	<p> The Mandelbrot set canvas</p>
+		<div>
+		<form id="collectConfigurationSettingsForm" style="width: 99%">
+		<table border='1'>
+			<tbody>
+			<!-- One configuration setting per row -->
+				<tr>
+					<td>Complex Region Center (r): </td>
+					<td><input name="complexRegionCenterR" type="text" value="0"></input></td>
+				</tr>
+				<tr>
+					<td>Complex Region Center (i): </td>
+					<td><input name="complexRegionCenterI" type="text" value="0"></input></td>
+				</tr>
+				<tr>
+					<td>Complex Region Width: </td>
+					<td><input name="complexRegionWidth" type="text" value="2"></input></td>
+				</tr>
+				<tr>
+					<td>Complex Region Height: </td>
+					<td><input name="complexRegionHeight" type="text" value="2"></input></td>
+				</tr>
+				<tr>
+					<td>Iterations: </td>
+					<td><input name="iterations" type="text" value="10"></input></td>
+				</tr>
+			</tbody>
+		</table>
+		</form>
+	</div>
+	<br>
+   	<canvas id="mandelbrot"></canvas>
+   	<table>
+   		<tr>
+			<td><button type="button" id="drawMandelbrotButton">Draw Mandelbrot</button></td>  		
+			<td><button type="button" id="selectMandelbrotRegionButton">Select Mandelbrot Region</button></td>  		
+   		</tr>
+   	</table>
+</body>
+</html>

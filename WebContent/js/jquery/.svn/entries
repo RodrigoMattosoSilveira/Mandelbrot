@@ -1,0 +1,107 @@
+10
+
+dir
+1681
+http://developer.mendosoft.com/TMS/trunk/open-xchange-gui/js/jquery
+http://developer.mendosoft.com/TMS
+
+
+
+2010-12-15T22:59:20.604834Z
+1673
+rodrigo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+498925fa-3f6f-0410-a9e2-8e45dc3a3bae
+
+dataTables-1.5
+dir
+
+dataTables-1.5.4
+dir
+
+dataTables-1.7.4
+dir
+
+fullcalendar-1.4.3
+dir
+
+jquery-autocomplete
+dir
+
+jquery-qtip-1.0.0-rc3102613
+dir
+
+jquery-qtip-1.0.0-rc3115518
+dir
+
+jquery-ui
+dir
+
+jquery-ui-1.8.4.custom
+dir
+
+jquery-ui-multiselect-widget
+dir
+
+jquery-validate
+dir
+
+jquery.hotkeys
+dir
+
+jquery.tmpl.1.1.1.js
+file
+
+
+
+
+2010-12-09T18:37:16.000000Z
+7256341f4705d2fba94e93bfc374150d
+2010-11-11T23:16:37.814469Z
+1637
+steve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1217
+
+michael-multiselect
+dir
+
+qunit
+dir
+
+rgbmultiselect-1.0.5
+dir
+
